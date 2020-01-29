@@ -1,0 +1,34 @@
+{
+  
+	"name": "Graphite URI Encode/Decode",
+  	"version": "1.0.0",
+	"description": "Custom URI Encode/Decode",
+ 	"permissions":[
+		"storage",
+		"contextMenus", 
+      		"tabs",
+		"cookies",
+		"http://*/*", 
+		"https://*/*"	       		
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": {                    
+			"16": "images/graphite-logo.png",           
+			"24": "images/graphite-logo.png",           
+			"32": "images/graphite-logo.png",     
+			"48": "images/graphite-logo.png",    
+			"128": "images/graphite-logo.png"     
+          	}
+        },	
+	"icons": {
+		"16": "images/graphite-logo.png",           
+		"24": "images/graphite-logo.png",           
+		"32": "images/graphite-logo.png",     
+		"48": "images/graphite-logo.png",    
+		"128": "images/graphite-logo.png"     
+  	},
+	"manifest_version": 2
+}
