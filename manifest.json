@@ -1,8 +1,8 @@
 {
   
-	"name": "Graphite URI Encode/Decode",
+	"name": "URI Encode/Decode",
   	"version": "1.0.0",
-	"description": "Custom URI Encode/Decode",
+	"description": "By selecting the URI and right click options to choose either copy Encode/Decode",
  	"permissions":[
 		"storage",
 		"contextMenus", 
@@ -16,19 +16,19 @@
 	},
 	"browser_action": {
 		"default_icon": {                    
-			"16": "images/graphite-logo.png",           
-			"24": "images/graphite-logo.png",           
-			"32": "images/graphite-logo.png",     
-			"48": "images/graphite-logo.png",    
-			"128": "images/graphite-logo.png"     
+			"16": "images/logo.png",
+			"24": "images/logo.png",
+			"32": "images/logo.png",
+			"48": "images/logo.png",
+			"128": "images/logo.png"
           	}
         },	
 	"icons": {
-		"16": "images/graphite-logo.png",           
-		"24": "images/graphite-logo.png",           
-		"32": "images/graphite-logo.png",     
-		"48": "images/graphite-logo.png",    
-		"128": "images/graphite-logo.png"     
+		"16": "images/logo.png",
+		"24": "images/logo.png",
+		"32": "images/logo.png",
+		"48": "images/logo.png",
+		"128": "images/logo.png"
   	},
 	"manifest_version": 2
 }
